@@ -1,0 +1,6 @@
+4.0K	clear.sh
+ 12M	sharded_l0
+ 14M	sharded_l1
+796M	sharded_l2
+6.0M	sqlite_single
+8.1M	sqlite_single_wal

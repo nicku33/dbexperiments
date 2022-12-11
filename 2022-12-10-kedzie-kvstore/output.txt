@@ -1,0 +1,144 @@
+
+
+Multiple Process (8) Testing: DummyLocalDictKV
+{}
+Preloading
+{'time_ms': 7.17, 'avg_cycle_ms': 0.0004, 'hit_rate': 0.09445, 'bytes_stored_mb': 0.64}
+at i=4999: avg_time_ms 0.00
+at i=9999: avg_time_ms 0.00
+at i=14999: avg_time_ms 0.00
+at i=19999: avg_time_ms 0.00
+at i=24999: avg_time_ms 0.00
+at i=29999: avg_time_ms 0.00
+at i=34999: avg_time_ms 0.00
+at i=39999: avg_time_ms 0.00
+at i=44999: avg_time_ms 0.00
+at i=49999: avg_time_ms 0.00
+{'time_ms': 30.158, 'avg_cycle_ms': 0.0006, 'hit_rate': 0.21414, 'bytes_stored_mb': 1.38}
+{'time_ms': 31.66, 'avg_cycle_ms': 0.0006, 'hit_rate': 0.21396, 'bytes_stored_mb': 1.38}
+{'time_ms': 28.477, 'avg_cycle_ms': 0.0006, 'hit_rate': 0.21238, 'bytes_stored_mb': 1.39}
+{'time_ms': 40.677, 'avg_cycle_ms': 0.0008, 'hit_rate': 0.21562, 'bytes_stored_mb': 1.38}
+{'time_ms': 37.4, 'avg_cycle_ms': 0.0007, 'hit_rate': 0.21306, 'bytes_stored_mb': 1.38}
+{'time_ms': 41.279, 'avg_cycle_ms': 0.0008, 'hit_rate': 0.21304, 'bytes_stored_mb': 1.38}
+{'time_ms': 39.321, 'avg_cycle_ms': 0.0008, 'hit_rate': 0.21206, 'bytes_stored_mb': 1.39}
+{'time_ms': 37.59, 'avg_cycle_ms': 0.0008, 'hit_rate': 0.21284, 'bytes_stored_mb': 1.38}
+
+
+Multiple Process (8) Testing: ShardedDBMLocked
+{'base_path': './data/sharded_l0', 'levels': 0}
+Preloading
+{'time_ms': 6866.908, 'avg_cycle_ms': 0.3433, 'hit_rate': 0.09505, 'bytes_stored_mb': 0.64}
+at i=4999: avg_time_ms 4.15
+at i=9999: avg_time_ms 2.72
+at i=14999: avg_time_ms 2.16
+at i=19999: avg_time_ms 2.96
+at i=24999: avg_time_ms 2.56
+at i=29999: avg_time_ms 2.66
+at i=34999: avg_time_ms 2.45
+at i=39999: avg_time_ms 2.39
+at i=44999: avg_time_ms 2.33
+at i=49999: avg_time_ms 2.27
+{'time_ms': 94470.718, 'avg_cycle_ms': 1.8894, 'hit_rate': 0.75034, 'bytes_stored_mb': 0.44}
+{'time_ms': 112988.908, 'avg_cycle_ms': 2.2598, 'hit_rate': 0.83578, 'bytes_stored_mb': 0.29}
+{'time_ms': 113248.317, 'avg_cycle_ms': 2.265, 'hit_rate': 0.81482, 'bytes_stored_mb': 0.33}
+{'time_ms': 114900.6, 'avg_cycle_ms': 2.298, 'hit_rate': 0.77808, 'bytes_stored_mb': 0.39}
+{'time_ms': 115690.942, 'avg_cycle_ms': 2.3138, 'hit_rate': 0.7819, 'bytes_stored_mb': 0.38}
+{'time_ms': 117680.223, 'avg_cycle_ms': 2.3536, 'hit_rate': 0.81344, 'bytes_stored_mb': 0.33}
+{'time_ms': 121480.927, 'avg_cycle_ms': 2.4296, 'hit_rate': 0.82418, 'bytes_stored_mb': 0.31}
+{'time_ms': 121696.985, 'avg_cycle_ms': 2.4339, 'hit_rate': 0.793, 'bytes_stored_mb': 0.36}
+
+
+Multiple Process (8) Testing: ShardedDBMLocked
+{'base_path': './data/sharded_l1', 'levels': 1}
+Preloading
+{'time_ms': 7288.101, 'avg_cycle_ms': 0.3644, 'hit_rate': 0.09275, 'bytes_stored_mb': 0.64}
+at i=4999: avg_time_ms 0.85
+at i=9999: avg_time_ms 0.98
+at i=14999: avg_time_ms 0.95
+at i=19999: avg_time_ms 0.88
+at i=24999: avg_time_ms 0.89
+at i=29999: avg_time_ms 0.87
+at i=34999: avg_time_ms 0.86
+at i=39999: avg_time_ms 0.85
+at i=44999: avg_time_ms 0.84
+at i=49999: avg_time_ms 0.82
+{'time_ms': 41095.098, 'avg_cycle_ms': 0.8219, 'hit_rate': 0.78934, 'bytes_stored_mb': 0.37}
+{'time_ms': 42813.531, 'avg_cycle_ms': 0.8563, 'hit_rate': 0.78862, 'bytes_stored_mb': 0.37}
+{'time_ms': 42982.842, 'avg_cycle_ms': 0.8597, 'hit_rate': 0.79636, 'bytes_stored_mb': 0.36}
+{'time_ms': 43443.173, 'avg_cycle_ms': 0.8689, 'hit_rate': 0.80334, 'bytes_stored_mb': 0.35}
+{'time_ms': 43572.056, 'avg_cycle_ms': 0.8714, 'hit_rate': 0.80276, 'bytes_stored_mb': 0.35}
+{'time_ms': 43930.842, 'avg_cycle_ms': 0.8786, 'hit_rate': 0.81682, 'bytes_stored_mb': 0.32}
+{'time_ms': 44081.481, 'avg_cycle_ms': 0.8816, 'hit_rate': 0.79402, 'bytes_stored_mb': 0.36}
+{'time_ms': 44170.713, 'avg_cycle_ms': 0.8834, 'hit_rate': 0.80066, 'bytes_stored_mb': 0.35}
+
+
+Multiple Process (8) Testing: ShardedDBMLocked
+{'base_path': './data/sharded_l2', 'levels': 2}
+Preloading
+{'time_ms': 6300.616, 'avg_cycle_ms': 0.315, 'hit_rate': 0.09615, 'bytes_stored_mb': 0.64}
+at i=4999: avg_time_ms 1.04
+at i=9999: avg_time_ms 0.96
+at i=14999: avg_time_ms 0.88
+at i=19999: avg_time_ms 0.83
+at i=24999: avg_time_ms 0.80
+at i=29999: avg_time_ms 0.76
+at i=34999: avg_time_ms 0.74
+at i=39999: avg_time_ms 0.72
+at i=44999: avg_time_ms 0.70
+at i=49999: avg_time_ms 0.69
+{'time_ms': 34078.04, 'avg_cycle_ms': 0.6816, 'hit_rate': 0.79828, 'bytes_stored_mb': 0.35}
+{'time_ms': 34125.628, 'avg_cycle_ms': 0.6825, 'hit_rate': 0.79822, 'bytes_stored_mb': 0.35}
+{'time_ms': 34113.76, 'avg_cycle_ms': 0.6823, 'hit_rate': 0.80032, 'bytes_stored_mb': 0.35}
+{'time_ms': 34200.241, 'avg_cycle_ms': 0.684, 'hit_rate': 0.80014, 'bytes_stored_mb': 0.35}
+{'time_ms': 34225.278, 'avg_cycle_ms': 0.6845, 'hit_rate': 0.79848, 'bytes_stored_mb': 0.35}
+{'time_ms': 34247.134, 'avg_cycle_ms': 0.6849, 'hit_rate': 0.80186, 'bytes_stored_mb': 0.35}
+{'time_ms': 34357.259, 'avg_cycle_ms': 0.6871, 'hit_rate': 0.79674, 'bytes_stored_mb': 0.36}
+{'time_ms': 34376.46, 'avg_cycle_ms': 0.6875, 'hit_rate': 0.79796, 'bytes_stored_mb': 0.36}
+
+
+Multiple Process (8) Testing: SingleSQLite
+{'path': './data/sqlite_single/single.sqlite', 'use_wal': False}
+Preloading
+{'time_ms': 6757.0, 'avg_cycle_ms': 0.3378, 'hit_rate': 0.09325, 'bytes_stored_mb': 0.64}
+at i=4999: avg_time_ms 2.21
+at i=9999: avg_time_ms 1.60
+at i=14999: avg_time_ms 1.15
+at i=19999: avg_time_ms 1.12
+at i=24999: avg_time_ms 1.07
+at i=29999: avg_time_ms 0.98
+at i=34999: avg_time_ms 0.88
+at i=39999: avg_time_ms 0.81
+at i=44999: avg_time_ms 0.75
+at i=49999: avg_time_ms 0.70
+{'time_ms': 34465.859, 'avg_cycle_ms': 0.6893, 'hit_rate': 0.79612, 'bytes_stored_mb': 0.36}
+{'time_ms': 34884.987, 'avg_cycle_ms': 0.6977, 'hit_rate': 0.76028, 'bytes_stored_mb': 0.42}
+{'time_ms': 35076.842, 'avg_cycle_ms': 0.7015, 'hit_rate': 0.84382, 'bytes_stored_mb': 0.27}
+{'time_ms': 35203.746, 'avg_cycle_ms': 0.7041, 'hit_rate': 0.67854, 'bytes_stored_mb': 0.57}
+{'time_ms': 35829.346, 'avg_cycle_ms': 0.7166, 'hit_rate': 0.74934, 'bytes_stored_mb': 0.44}
+{'time_ms': 36134.68, 'avg_cycle_ms': 0.7227, 'hit_rate': 0.81214, 'bytes_stored_mb': 0.33}
+{'time_ms': 36169.869, 'avg_cycle_ms': 0.7234, 'hit_rate': 0.82828, 'bytes_stored_mb': 0.3}
+{'time_ms': 36416.057, 'avg_cycle_ms': 0.7283, 'hit_rate': 0.92428, 'bytes_stored_mb': 0.13}
+
+
+Multiple Process (8) Testing: SingleSQLite
+{'path': './data/sqlite_single_wal/single.sqlite', 'use_wal': True}
+Preloading
+{'time_ms': 765.642, 'avg_cycle_ms': 0.0383, 'hit_rate': 0.0911, 'bytes_stored_mb': 0.64}
+at i=4999: avg_time_ms 0.74
+at i=9999: avg_time_ms 0.67
+at i=14999: avg_time_ms 0.56
+at i=19999: avg_time_ms 0.48
+at i=24999: avg_time_ms 0.43
+at i=29999: avg_time_ms 0.38
+at i=34999: avg_time_ms 0.34
+at i=39999: avg_time_ms 0.31
+at i=44999: avg_time_ms 0.28
+at i=49999: avg_time_ms 0.26
+{'time_ms': 12717.183, 'avg_cycle_ms': 0.2543, 'hit_rate': 0.79376, 'bytes_stored_mb': 0.36}
+{'time_ms': 12879.599, 'avg_cycle_ms': 0.2576, 'hit_rate': 0.79118, 'bytes_stored_mb': 0.37}
+{'time_ms': 12828.761, 'avg_cycle_ms': 0.2566, 'hit_rate': 0.79986, 'bytes_stored_mb': 0.35}
+{'time_ms': 12870.848, 'avg_cycle_ms': 0.2574, 'hit_rate': 0.80238, 'bytes_stored_mb': 0.35}
+{'time_ms': 12909.385, 'avg_cycle_ms': 0.2582, 'hit_rate': 0.79652, 'bytes_stored_mb': 0.36}
+{'time_ms': 12971.43, 'avg_cycle_ms': 0.2594, 'hit_rate': 0.81128, 'bytes_stored_mb': 0.33}
+{'time_ms': 12989.849, 'avg_cycle_ms': 0.2598, 'hit_rate': 0.78656, 'bytes_stored_mb': 0.38}
+{'time_ms': 13025.526, 'avg_cycle_ms': 0.2605, 'hit_rate': 0.81176, 'bytes_stored_mb': 0.33}
