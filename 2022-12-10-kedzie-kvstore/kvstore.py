@@ -210,18 +210,18 @@ if __name__ == '__main__':
     # in mem dict per process for baseline
     driver(DummyLocalDictKV, {})
 
-    # single dbm file with locks.
-    # driver(ShardedDBMLocked, {'base_path': './data/sharded_l0', "levels": 0} )  # after 1 min killed it
+    # single dbm file with locks. This test can run minutes
+    driver(ShardedDBMLocked, {'base_path': './data/sharded_l0', "levels": 0} )  # after 1 min killed it
 
     # dbm sharded into 256 files, nice balance, not too much bloat
-    # driver(ShardedDBMLocked, {'base_path': './data/sharded_l1', "levels": 1} )
+    driver(ShardedDBMLocked, {'base_path': './data/sharded_l1', "levels": 1} )
 
     # dmb sharded into 256 ** 2 files
     # this reates lots of overhead, balooning on disk footprint to 500MB
     driver(ShardedDBMLocked, {'base_path': './data/sharded_l2', "levels": 2} )
 
     # sqllite with classic locks, keeping connection alive
-    # driver(SingleSQLite, {'path': './data/sqlite_single/single.sqlite', "use_wal": False} )
+    driver(SingleSQLite, {'path': './data/sqlite_single/single.sqlite', "use_wal": False} )
 
     # sqllite with WAL file, better under high contention theoretically
-    # driver(SingleSQLite, {'path': './data/sqlite_single_wal/single.sqlite', "use_wal": True} )
+    driver(SingleSQLite, {'path': './data/sqlite_single_wal/single.sqlite', "use_wal": True} )
